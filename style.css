@@ -1,0 +1,141 @@
+* {
+    padding: 0;
+    margin: 0;
+    
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+    background-color: #000000;
+}
+
+#img-main {
+    max-width: 90vh;
+    display: block;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+h1 {
+    font-family: 'MedievalSharp', cursive;
+    text-align: center;
+    color: #ffffff;
+    padding: 15px;
+}
+
+h2 {
+    font-family: 'MedievalSharp', cursive;
+    font-size: 20px;
+    text-align: center;
+    color: #ffffff;
+    padding: 10px;
+    margin-top: -20px;
+   
+}
+
+p {
+    text-align: center;
+    color: #ffffff;
+}
+
+/* Tudo o que for relacionado à navbar está abaixo */
+
+nav .barra-principal {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #dddddd;
+    padding-left: 50px;
+}
+
+li {
+    float: left;
+}
+
+.barra-principal a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+
+}
+
+
+/* Essa mecanica de hover funciona em todas as seções principais */
+
+.barra-principal li a:hover {
+    background-color: #adadad;
+}
+
+ul #pagina-atual a:hover  {
+    background-color: #8b2e2ee0; 
+}
+
+
+/* fim da navbar */
+
+footer {
+    margin-bottom: 50px;
+    color: #ffffff;
+}
+
+.footer-text {
+    padding-top: 40px;
+    text-align: center;
+}
+
+/* Aqui ficará tudo o que é referente a pagina de Missões*/
+
+
+/* Esta feature funcionará em todos os sites de seções principais */
+ul #pagina-atual {
+    background-color: #8b2e2ee0;
+}
+
+ul #link-atual{
+    color: #ffffff;
+}
+
+h3 {
+    font-family: 'MedievalSharp', cursive;
+    margin-top: 10px;
+    padding: 10px ;
+    background-color: #adadad ;
+}
+
+div #categorias {
+    font-size: 20px;
+    text-align: left;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+h4 {
+    color: #ffffff;
+    background-color: #0B2763;
+    padding: 20px;
+    margin-top: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
+    display: block;
+}
+
+ul .missao-link{
+    color: #0B2763;
+    text-decoration: none; 
+    font-weight: bold;
+}
+
+div .lista-interna{
+    margin-left: 200px;
+    margin-top: 25px;
+    line-height: 25px;
+}
+.item-interno a:hover{
+    text-decoration: underline;
+    color: #ffffff;
+}
+
+.item-interno [href*="#"]{
+    color: #ff0000;
+}
+/* Fim da página de Missões */
